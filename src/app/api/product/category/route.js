@@ -1,9 +1,5 @@
-import sequelize from "@/lib/sequelize"
 import Product from "@/models/product"
 import { Op } from "sequelize"
-
-await sequelize.authenticate()
-await sequelize.sync()
 
 export async function POST(request) {
   try {

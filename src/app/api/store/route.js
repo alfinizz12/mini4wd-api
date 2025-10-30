@@ -1,8 +1,4 @@
 import Store from "@/models/store"
-import sequelize from "@/lib/sequelize"
-
-await sequelize.authenticate()
-await sequelize.sync()
 
 export async function GET() {
   try {
